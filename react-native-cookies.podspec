@@ -16,6 +16,6 @@ Pod::Spec.new do |s|
   s.requires_arc        = true
   s.platform            = :ios, "7.0"
   s.preserve_paths      = "*.framework"
-  s.source_files        = 'RNCookieManagerIOS/*.{h,m}'
+  s.source_files        = 'ios/RNCookieManagerIOS/*.{h,m}'
   s.dependency 'React'
 end
